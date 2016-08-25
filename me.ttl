@@ -1,0 +1,40 @@
+@base <http://dendriel.github.io/#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<Me> a foaf:Person 
+   ; foaf:title "Ms" 
+   ; foaf:givenName "Vitor" 
+   ; foaf:familyName "Rozsa" 
+   ; foaf:name "Ms Vitor Rozsa" 
+   ; foaf:nick "Rutia" 
+   ; foaf:mbox_sha1sum "afed211cf9962b6d992dddee96751870765062f5" 
+   ; foaf:homepage <https://github.com/dendriel> 
+   ; foaf:weblog <http://dendriel.github.io/games/> 
+   ; foaf:tipJar <> 
+   ; foaf:account <https://br.linkedin.com/in/vitor-rozsa-77712332> 
+   ; foaf:account <https://www.facebook.com/vitor.rozsa> 
+   ; foaf:account <> 
+   ; foaf:age "24" 
+   ; foaf:workplaceHomepage <> 
+   ; foaf:schoolHomepage <> 
+   ; foaf:currentProject <> 
+   ; foaf:img <> 
+   ; foaf:publications <> 
+   ; foaf:made <> 
+. 
+
+<http://dendriel.github.io/#Me> foaf:knows <undefined> . 
+
+<undefined> a foaf:Person 
+   ; foaf:name "Marta Denisczwicz" 
+   ; foaf:mbox_sha1sum "undefined" 
+. 
+
+<http://dendriel.github.io/#Me> foaf:knows <undefined> . 
+
+<undefined> a foaf:Person 
+   ; foaf:name "Rubens Rozsa Filho" 
+   ; foaf:mbox_sha1sum "undefined" 
+. 
