@@ -1,7 +1,9 @@
-@base <http://dendriel.github.io/#> .
+@base <http://dendriel.github.io/info#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+@prefix wish: <http://purl.org/new/WishListSchema> .
 
 <Me> a foaf:Person 
    ; foaf:title "Ms" 
@@ -38,3 +40,5 @@
    ; foaf:name "Rubens Rozsa Filho" 
    ; foaf:mbox_sha1sum "undefined" 
 . 
+
+<http://dendriel.github.io/info/me.ttl> wish:wishList <http://dendriel.github.io/info/wishlist.ttl>

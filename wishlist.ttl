@@ -1,0 +1,6 @@
+@prefix wish: http://purl.org/net/WishListSchema .
+
+<http://dendriel.github.io/info/wishlist.ttl> wish:wish_list_item <http://store.steampowered.com/app/275850/> ,
+	<http://store.steampowered.com/app/275850/> ,
+	<http://store.steampowered.com/app/275850/> .
+
